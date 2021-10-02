@@ -30,9 +30,9 @@ with zipfile.ZipFile('OH_all.zip', 'r') as zip_ref:
 news_list = glob.glob('*.txt')
 
 
-##Step 1: Clean titile and content
+##Step 1: Clean title and content
 
-#clean lines contaning news title & copy right. Other news papers may contain other irrelevant lines--check to organize the terms.
+#clean lines containing news title & copy right. Other news papers may contain other irrelevant lines--check to organize the terms.
 
 def should_remove_line(line, nonsense):
     return any([word in line for word in nonsense])
@@ -295,7 +295,7 @@ for news in join_all_news:
     biggie_ = ['_'.join(y) for y in new_big]
     news_bigram_raw.append(biggie_)
 
-#Single out uninformative bigrams
+#single out uninformative bigrams
 
 uninfo = ['oil_gas', 'natural_gas', 'hydraulic_fracturing']
 
