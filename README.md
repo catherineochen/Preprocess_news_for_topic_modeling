@@ -17,5 +17,5 @@ Step 3: Preprocess the news content
 
 Step 4: Generate bigrams of news content
 
-Step 5: Run preliminary topic models to screen out common bigrams that are informative
+Step 5: Run preliminary topic models to screen out common bigrams that are uninformative
 
