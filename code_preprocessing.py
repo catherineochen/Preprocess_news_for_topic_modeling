@@ -222,7 +222,7 @@ all_articles = []
 for article in df_merge['content']:
     all_articles.append(article)
 
-# create a list of lemmatized news (Bag Of Words approach), spacy functions 
+# create a list of lemmatized news (Bag Of Words approach) using sPacy functions 
 
 all_news = []
 
