@@ -1,4 +1,4 @@
-# Preprocessing_news_for_topic_modeling
+# Preprocess_news_for_topic_modeling
 
 The code provides common steps to organize and preprocess raw newspaper text files for topic modeling. The example is based on Ohio newspaper stories about 
 hydraulic fracturing. The steps included are summarized below:
